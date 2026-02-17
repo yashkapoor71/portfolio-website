@@ -28,7 +28,7 @@ const AboutSection = () => {
     },
     {
       icon: Bike,
-      label: "Cycling",
+      label: "Gym",
       color: "text-green-500",
       bg: "bg-green-500/10",
     },
@@ -40,7 +40,7 @@ const AboutSection = () => {
     },
     {
       icon: Wrench,
-      label: "Crafting",
+      label: "Mathematics",
       color: "text-orange-500",
       bg: "bg-orange-500/10",
     },
@@ -103,8 +103,7 @@ const AboutSection = () => {
                       Software/ AI Engineer 
                     </span>{" "}
                     driven by curiosity and a focus on innovation. I transform ideas
-                    into reliable, polished experiences and contribute to teams
-                    that value quality and impact.
+                    into AI-powered scalable.
                   </p>
                 </div>
               </div>

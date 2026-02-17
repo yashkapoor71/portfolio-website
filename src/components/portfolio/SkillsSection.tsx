@@ -7,6 +7,11 @@ import {
   SiCss3,
   SiJavascript,
   SiReact,
+  SiTensorflow,
+  SiPandas,
+  SiNumpy,
+  SiPytorch,
+  SiDocker,
   SiRedux,
   SiReactrouter,
   SiThreedotjs,
@@ -53,17 +58,17 @@ const BRAND_COLORS: Record<string, string> = {
   C: "#A8B9CC",
   "C++": "#00599C",
   Python: "#3776AB",
-  Mongoose: "#FF6B6B",
+  Pandas: "#FF6B6B",
   MongoDB: "#47A248",
   MySQL: "#4479A1",
   Git: "#F05032",
   GitHub: "#FFFFFF",
   Vite: "#646CFF",
-  Bun: "#FFFFFF",
-  Postman: "#FF6C37",
-  Bruno: "#FFC50F",
+  Numpy: "#FFFFFF",
+  Docker: "#FF6C37",
+  Tensorflow: "#FFC50F",
   Vercel: "#FFFFFF",
-  Blender: "#F5792A",
+  Pytorch: "#F5792A",
 };
 
 function alpha(hex: string, a: number) {
@@ -76,35 +81,30 @@ function alpha(hex: string, a: number) {
 }
 
 const skills = [
-  { name: "HTML", icon: SiHtml5 },
-  { name: "CSS", icon: SiCss3 },
+  { name: "Python", icon: SiPython },
   { name: "JavaScript", icon: SiJavascript },
   { name: "TypeScript", icon: SiTypescript },
-  { name: "React.js", icon: SiReact },
-  { name: "Redux", icon: SiRedux },
-  { name: "React Router", icon: SiReactrouter },
-  { name: "Next.js", icon: SiNextdotjs },
-  { name: "Three.js", icon: SiThreedotjs },
-  { name: "Node.js", icon: SiNodedotjs },
-  { name: "Express.js", icon: SiExpress },
-  { name: "Bootstrap", icon: SiBootstrap },
-  { name: "Tailwind CSS", icon: SiTailwindcss },
-  { name: "DaisyUI", icon: SiDaisyui },
   { name: "Java", icon: SiOpenjdk },
   { name: "C", icon: SiC },
   { name: "C++", icon: SiCplusplus },
-  { name: "Python", icon: SiPython },
-  { name: "Mongoose", icon: SiMongoose },
+  { name: "HTML", icon: SiHtml5 },
+  { name: "CSS", icon: SiCss3 },
+  { name: "TensorFlow", icon: SiTensorflow },
+  { name: "pandas", icon: SiPandas },
+  { name: "numpy", icon: SiNumpy },
+  { name: "PyTorch", icon: SiPytorch },
+  { name: "AWS", icon: SiReact },
+  { name: "Docker", icon: SiDocker },
+  { name: "React.js", icon: SiReact },
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "Tailwind CSS", icon: SiTailwindcss },
   { name: "MongoDB", icon: SiMongodb },
   { name: "MySQL", icon: SiMysql },
   { name: "Git", icon: SiGit },
   { name: "GitHub", icon: SiGithub },
   { name: "Vite", icon: SiVite },
-  { name: "Bun", icon: SiBun },
-  { name: "Postman", icon: SiPostman },
-  { name: "Bruno", icon: SiBruno },
   { name: "Vercel", icon: TbBrandVercel },
-  { name: "Blender", icon: SiBlender },
 ];
 
 const SkillsSection = () => {
@@ -114,15 +114,15 @@ const SkillsSection = () => {
     <section id="skills" className="py-16 px-4 relative">
       <div className="container mx-auto max-w-6xl">
         <Reveal>
-          <h2 className="section-title text-center">My Skills</h2>
+          <h2 className="section-title text-center">Technical Skills</h2>
         </Reveal>
-
+{/*
         <Reveal>
           <p className="text-center text-foreground/70 max-w-2xl mx-auto mt-2">
             A collection of technologies and tools I'm proficient in, constantly learning and improving.
           </p>
         </Reveal>
-
+*/}
         <Reveal>
           <div
             className="skills-shell mt-16 p-8 relative min-h-[600px] overflow-hidden bg-background

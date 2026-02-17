@@ -16,7 +16,7 @@ const Footer = () => {
         hour: "2-digit",
         minute: "2-digit",
         hour12: true,
-        timeZone: "Asia/Kolkata"
+        timeZone: "America/Detroit"
       }));
     };
     updateTime();
@@ -120,16 +120,13 @@ const Footer = () => {
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              <span>Mumbai, India</span>
+              <span>Toledo, OH</span>
               <span className="text-border">|</span>
-              <span className="font-mono">{time} IST</span>
+              <span className="font-mono">{time} ET</span>
             </div>
           </div>
 
           <div className="flex items-center gap-6">
-            <p className="flex items-center gap-1.5">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500 animate-pulse" /> by Yash Palav
-            </p>
 
             <button
               onClick={scrollToTop}
