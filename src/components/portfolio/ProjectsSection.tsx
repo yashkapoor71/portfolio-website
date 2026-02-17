@@ -11,7 +11,7 @@ const ProjectsSection = () => {
             description: "Ledger is a responsive web application that allows users to create, manage, and organize their notes. It features user authentication, a clean dashboard interface, and a RESTful API for note management operations.",
             image: ledgerProjectImage,
             technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "MySQL", "JWT"],
-            github: "",
+            github: "https://github.com/yashkapoor71",
             live: "",
         },
         {
@@ -19,7 +19,7 @@ const ProjectsSection = () => {
             description: "ApexScript is a sleek, user-friendly code editor using HTML, CSS, React, and Tailwind CSS. Designed for all skill levels, it offers a clean interface and powerful features to enhance your coding experience across multiple languages, ensuring a seamless workflow.",
             image: apexscriptImage,
             technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
-            github: "",
+            github: "https://github.com/yashkapoor71/",
             live: "",
         },
         {
@@ -27,7 +27,7 @@ const ProjectsSection = () => {
             description: "TradePro is a feature-rich, simulated trading platform designed to provide users with a realistic yet risk-free environment to practice trading strategies, monitor market data, and manage virtual portfolios.",
             image: tradeproImage,
             technologies: ["Next.js", "TypeScript", "Node.js", "MongoDB", "JWT"],
-            github: "",
+            github: "https://github.com/yashkapoor71",
             live: "",
         },
     ];

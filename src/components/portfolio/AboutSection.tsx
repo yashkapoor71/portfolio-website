@@ -1,5 +1,6 @@
 import {
   Bike,
+  Dumbbell,
   Brain,
   Code2,
   Download,
@@ -27,7 +28,7 @@ const AboutSection = () => {
       bg: "bg-blue-500/10",
     },
     {
-      icon: Bike,
+      icon: Dumbbell,
       label: "Gym",
       color: "text-green-500",
       bg: "bg-green-500/10",
