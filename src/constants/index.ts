@@ -11,16 +11,6 @@ export const SOCIAL_LINKS = [
     href: "https://linkedin.com/in/yash-kapoor7", 
     label: "LinkedIn" 
   },
-  { 
-    icon: Instagram, 
-    href: "https://www.instagram.com/_highkeyyash_/", 
-    label: "Instagram" 
-  },
-  { 
-    icon: Twitter, 
-    href: "https://x.com/yashpalav26", 
-    label: "Twitter" 
-  },
 ] as const;
 
 export const NAV_ITEMS = [

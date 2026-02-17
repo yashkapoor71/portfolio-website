@@ -9,9 +9,9 @@ const ExperienceSection = () => {
 
   const experiences = [
     {
-      company: "Talent Corner HR Services Pvt. Ltd.",
-      role: "Full Stack Developer Intern",
-      date: "June 2025 – Present",
+      company: "University of Toledo",
+      role: "IT Specialist III",
+      date: "Jan 2024 – Present",
       description: [
         "Worked on building and enhancing Saarthi360, a comprehensive CRM & HR management system used internally by the company and its franchisees.",
         "Built Saarthi360, a CRM & HR platform with multi-tenant architecture.",
@@ -22,9 +22,9 @@ const ExperienceSection = () => {
       image: talentCornerLogo,
     },
     {
-      company: "Nullclass EdTech Pvt. Ltd.",
-      role: "Frontend Developer Intern",
-      date: "Jan 2025 – Jun 2025",
+      company: "University of Toledo",
+      role: "Clinical Informatics Intern",
+      date: "Jun 2025 – Aug 2025",
       description: [
         "Developed and enhanced responsive, user-friendly web interfaces for interactive projects.",
         "Implemented dynamic features such as portfolio tracking, sentiment analysis, and trading simulations to improve functionality and user experience.",
@@ -34,6 +34,45 @@ const ExperienceSection = () => {
       ],
       image: nullclassLogo,
     },
+    {
+      company: "Headstarter",
+      role: "Software Engineering Intern",
+      date: "Aug 2024 – Oct 2024",
+      description: [
+        "Developed and enhanced responsive, user-friendly web interfaces for interactive projects.",
+        "Implemented dynamic features such as portfolio tracking, sentiment analysis, and trading simulations to improve functionality and user experience.",
+        "Designed an Analytics Dashboard with moving averages, RSI, and volatility metrics.",
+        "Built a simulated Algorithmic Trading Bot to automate “buy low, sell high” strategies.",
+        "Added User Login & Data Persistence with Firebase for secure access and saved preferences."
+      ],
+      image: nullclassLogo,
+    },
+    {
+      company: "Creative Liquid Coatings Inc.",
+      role: "Technical Program Manager Intern",
+      date: "May 2024 – Aug 2024",
+      description: [
+        "Developed and enhanced responsive, user-friendly web interfaces for interactive projects.",
+        "Implemented dynamic features such as portfolio tracking, sentiment analysis, and trading simulations to improve functionality and user experience.",
+        "Designed an Analytics Dashboard with moving averages, RSI, and volatility metrics.",
+        "Built a simulated Algorithmic Trading Bot to automate “buy low, sell high” strategies.",
+        "Added User Login & Data Persistence with Firebase for secure access and saved preferences."
+      ],
+      image: nullclassLogo,
+    },
+    {
+      company: "Radical AI",
+      role: "Software Development Intern",
+      date: "Jun 2023 – Aug 2023",
+      description: [
+        "Developed and enhanced responsive, user-friendly web interfaces for interactive projects.",
+        "Implemented dynamic features such as portfolio tracking, sentiment analysis, and trading simulations to improve functionality and user experience.",
+        "Designed an Analytics Dashboard with moving averages, RSI, and volatility metrics.",
+        "Built a simulated Algorithmic Trading Bot to automate “buy low, sell high” strategies.",
+        "Added User Login & Data Persistence with Firebase for secure access and saved preferences."
+      ],
+      image: nullclassLogo,
+    }
   ];
 
   return (
